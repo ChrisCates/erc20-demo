@@ -1,0 +1,23 @@
+<h1>ERC20 Wallet</h1>
+<div class="wallets">
+  <div class="wallet" *ngFor="let wallet of wallets">
+    <ngx-qrcode [qrc-element-type]="div" [qrc-value] = "wallet.address"></ngx-qrcode>
+    <div class="code">
+      {{wallet.address}}
+    </div>
+    <p class="balance"><i class="cc ETH"></i> ETH {{wallet.eth}}</p>
+    <p class="balance"><i class="cc XRP"></i> CT {{wallet.ct}}</p>
+    <p class="label">Send to ETH address</p>
+    <input type="text" placeholder="ETH Address" [(ngModel)]="wallet.to_address"/>
+    <p class="label">Send ETH</p>
+    <input type="text" placeholder="# ETH" [(ngModel)]="wallet.amount_eth"/>
+    <div class="button-wrap">
+      <a class="button" (click)="sendETH(wallet.address, wallet.to_address, wallet.amount_eth)">Send ETH</a>
+    </div>
+    <p class="label">Send CatesTokens<p>
+      <input type="text" placeholder="# CT" [(ngModel)]="wallet.amount_ct"/>
+      <div class="button-wrap">
+        <a class="button" (click)="sendCT(wallet.address, wallet.to_address, wallet.amount_ct)">Send CT</a>
+      </div>
+  </div>
+</div>

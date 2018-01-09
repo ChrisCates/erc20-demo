@@ -1,0 +1,62 @@
+h1 {
+  font-weight: 300;
+  padding: 30px;
+}
+
+div.wallets {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: Wrap;
+  div.wallet {
+    margin: 15px;
+    padding: 15px;
+    width: 360px;
+    background: white;
+    border: 2px solid #CBCBCB;
+    border-radius: 3px;
+    div.code {
+      background: black;
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 15px;
+      text-align: center;
+      border-radius: 4px;
+    }
+    p.balance {
+      font-size: 18px;
+      padding: 15px;
+      background: #F4F4F4;
+      margin: 15px 0;
+      border-radius: 4px;
+    }
+    p.label {
+      font-size: 12px;
+      font-weight: 700;
+    }
+    input {
+      background: #F4F4F4;
+      display: block;
+      width: 100%;
+      height: 40px;
+      padding: 15px;
+      font-size: 18px;
+      border: none;
+      margin: 0 0 15px 0;
+    }
+    div.button-wrap {
+      display: flex;
+      justify-content: flex-end;
+      a.button {
+        background: black;
+        color: white;
+        width: 200px;
+        height: 40px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
