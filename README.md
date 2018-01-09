@@ -2,6 +2,8 @@
 ## by Chris Cates :star:
 ### January 9th, 2018
 
+[Bank Account by 21 Savage]: bank_account.png
+
 ## Setup Instructions
 
 1. Install ganache-cli to run your own private Ethereum node `npm install ganache-cli -g`
@@ -13,4 +15,4 @@
 7. Run `ng serve` assuming Angular CLI is installed `npm install @angular/cli -g`
 8. Play around with demo wallet on http://localhost:4200
 
-*MIT Licensed*
+*MIT Licensed by Big Daddy Cates*
