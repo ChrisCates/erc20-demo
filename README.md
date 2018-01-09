@@ -2,7 +2,7 @@
 ## by Chris Cates :star:
 ### January 9th, 2018
 
-[Bank Account by 21 Savage]: bank_account.png
+![Bank Account 21 Savage](https://github.com/ChrisCates/erc20-demo/blob/master/bank_account.png?raw=true "Bank Account 21 Savage")
 
 ## Setup Instructions
 
