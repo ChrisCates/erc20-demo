@@ -1,4 +1,8 @@
-<h1>ERC20 Wallet</h1>
+<h1>Make a new wallet</h1>
+<p class="wallet-label">Passcode for new Wallet</p>
+<input type="text" class="wallet-input" placeholder="Passcode" [(ngModel)]="walletCode"/>
+<a class="wallet-button" (click)="createWallet()">Create new wallet</a>
+<h1>Your Wallet</h1>
 <div class="wallets">
   <div class="wallet" *ngFor="let wallet of wallets">
     <ngx-qrcode [qrc-element-type]="div" [qrc-value] = "wallet.address"></ngx-qrcode>

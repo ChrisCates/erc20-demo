@@ -15,6 +15,8 @@ export class AppComponent implements OnInit {
   public walletAddresses = web3.eth.accounts;
   public wallets = [];
 
+  public walletCode = "";
+
   public CatesToken;
 
   constructor() {
@@ -26,6 +28,17 @@ export class AppComponent implements OnInit {
     this.CatesToken.setProvider(web3.currentProvider);
     this.getBalances();
     console.log(web3);
+  }
+
+  createWallet() {
+    let newAccount = web3.personal.newAccount(this.walletCode);
+    this.walletCode = "";
+    this.getAccounts();
+    this.getBalances();
+  }
+
+  getAccounts() {
+    this.walletAddresses = web3.eth.accounts
   }
 
   getBalances() {

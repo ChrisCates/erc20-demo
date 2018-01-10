@@ -3,6 +3,35 @@ h1 {
   padding: 30px;
 }
 
+p.wallet-label {
+  margin: 5px 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+input.wallet-input {
+  margin: 5px 30px;
+  width: 300px;
+  height: 40px;
+  border: none;
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+a.wallet-button {
+  background: black;
+  color: white;
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
 div.wallets {
   display: flex;
   flex-direction: row;
