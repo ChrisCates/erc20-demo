@@ -1,4 +1,5 @@
-export default {
+export default
+{
   "contractName": "CatesToken",
   "abi": [
     {
@@ -772,8 +773,13 @@ export default {
       "events": {},
       "links": {},
       "address": "0xdc20b2e336a866ccb64c44286124965f1fa41471"
+    },
+    "1515557215128": {
+      "events": {},
+      "links": {},
+      "address": "0x34fd6f005a3dedbdf23070bdbf72121046708139"
     }
   },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-01-09T22:52:28.914Z"
+  "updatedAt": "2018-01-10T04:15:43.687Z"
 }

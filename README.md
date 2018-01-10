@@ -9,10 +9,9 @@
 1. Install ganache-cli to run your own private Ethereum node `npm install ganache-cli -g`
 2. Run ganache-cli in your terminal `ganache-cli`
 3. Install truffle via npm `npm install truffle -g`
-4. In the root directory of this project run `truffle compile` to compile the contracts
-5. In the root directory of this project run `truffle deploy` to deploy the project to our private node.
-6. Run `npm install` in the root directory
-7. Run `ng serve` assuming Angular CLI is installed `npm install @angular/cli -g`
-8. Play around with demo wallet on http://localhost:4200
+4. Deploy the ethereum contract with `sh deploy_token.sh`
+5. Run `npm install` in the root directory
+6. Run `ng serve` assuming Angular CLI is installed `npm install @angular/cli -g`
+7. Play around with demo wallet on http://localhost:4200
 
 *MIT Licensed by Big Daddy Cates*
