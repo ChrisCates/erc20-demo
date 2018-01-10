@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import * as contract from 'truffle-contract'
-import * as cates_artifact from '../assets/contracts/CatesToken.json'
+import cates_artifact from './CatesToken'
 
 declare var web3;
 
